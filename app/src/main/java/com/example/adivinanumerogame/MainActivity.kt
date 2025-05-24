@@ -54,7 +54,7 @@ fun NumberGuessGame() {
         }
         if (!gameOver) {
             gameOver = true
-            feedback = "⏰ Se acabó el tiempo. El número era $targetNumber."
+            feedback = "Se acabó el tiempo. El número era $targetNumber."
         }
     }
 
